@@ -16492,5 +16492,482 @@
   },
   {
     "output": "import numpy as np"
+  },
+  {
+    "output": "import matplotlib.pyplot as plt"
+  },
+  {
+    "output": "import re"
+  },
+  {
+    "output": "t = Texttable()\n    t.add_row(['Item', 'Value'])\n    t.add_row(['CPU Usage (%)', f\"{psutil.cpu_percent()}%\"])\n    t.add_row(['Memory Usage (%)', f\"{psutil.virtual_memory().percent}%\"])\n    t.add_row(['Disk Usage (%)', f\"{psutil.disk_usage('/').percent}%\"])\n    print(t.draw())"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import csv"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "scaler = StandardScaler()\n    scaled_data = scaler.fit_transform(data)\n    encoded_data = base64.b64encode(scaled_data.astype(np.float32).tobytes())\n    return encoded_data.decode('ascii')"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "from random import randint"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "import xlwt"
+  },
+  {
+    "output": "import re"
+  },
+  {
+    "output": "import re"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "from random import choice"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "flattened = [item for sublist in list_of_menuitems for item in sublist]\ncounts = Counter(flattened)\nreturn pd.DataFrame(list(counts.items()), columns=['MenuItem', 'Count']).set_index('MenuItem')"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "sum_values = 0\ncategory_counts = {}\nfor value, category in list_of_tuples:\n    sum_values += value\n    if category in category_counts:\n        category_counts[category] += 1\n    else:\n        category_counts[category] = 1\n(sum_values, category_counts)"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "from nltk.tokenize import word_tokenize"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "from collections import Counter"
+  },
+  {
+    "output": "scaler = StandardScaler()\ndf_standardized = pd.DataFrame(scaler.fit_transform(df), columns=df.columns)"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import seaborn as sns"
+  },
+  {
+    "output": "import os"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import os"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "import json"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "gdp_values = {country: np.random.randint(1000000000, 100000000000) for country in country_dict}\n    return pd.DataFrame(list(gdp_values.items()), columns=['Country', 'GDP']).set_index('Country')"
+  },
+  {
+    "output": "import re"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "x = np.linspace(-10, 10, 400)\ny = x**2\nplt.plot(x, y)\nplt.title('y = x^2')\nplt.xlabel('x')\nplt.ylabel('y')\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import heapq"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import random"
+  },
+  {
+    "output": "2"
+  },
+  {
+    "output": "0"
+  },
+  {
+    "output": "from matplotlib import pyplot as plt"
+  },
+  {
+    "output": "np.array([reduce(lambda x, y: x * y, (t[1] for t in list_of_pairs))])"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import requests"
+  },
+  {
+    "output": "return pd.DataFrame(list(itertools.product(string.ascii_lowercase, repeat=3)), columns=['col1', 'col2', 'col3'])"
+  },
+  {
+    "output": "import matplotlib"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import re"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "1"
+  },
+  {
+    "output": "from functools import reduce"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "import requests"
+  },
+  {
+    "output": "NO"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "1"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "from flask import Flask, render_template, request"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import re"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "from collections import Counter"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import collections"
+  },
+  {
+    "output": "from nltk.tokenize import RegexpTokenizer"
+  },
+  {
+    "output": "import re"
+  },
+  {
+    "output": "os.path.getsize(filepath), datetime.fromtimestamp(os.path.getmtime(filepath)).strftime('%Y-%m-%d %H:%M:%S')"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import os"
+  },
+  {
+    "output": "import os"
+  },
+  {
+    "output": "import struct"
+  },
+  {
+    "output": "import re"
+  },
+  {
+    "output": "np.random.seed(seed)\ndf = pd.DataFrame(np.random.randint(1, 101, size=(data_size, len(column_names))), columns=column_names)\ndf[df < 10] = -1"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "pd.DataFrame(result).to_csv(csv_file_path, index=False)\njson.dump(result, open(json_file_path, 'w'), indent=4)"
+  },
+  {
+    "output": "import csv"
+  },
+  {
+    "output": "import matplotlib"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "data = np.random.normal(loc=0, scale=1, size=length)\nfig, ax = plt.subplots()\nax.hist(data, bins=30, density=True, alpha=0.6, color='g')\nx = np.linspace(-4, 4, 100)\nax.plot(x, norm.pdf(x, 0, 1), 'r', lw=2)\nreturn data, ax"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "import time"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "from datetime import datetime"
+  },
+  {
+    "output": "from collections import Counter"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "from sklearn.preprocessing import MinMaxScaler"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "le = LabelEncoder()\nencoded = le.fit_transform(data)\nresult = pd.DataFrame({'Category': data, 'Encoded': encoded})\nresult"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "data = []\nfor line in text.splitlines():\n    match = re.search(r'Score: (\\d+), Category: (.+)', line)\n    if match:\n        score = int(match.group(1))\n        category = match.group(2)\n        data.append({'Score': score, 'Category': category})\npd.DataFrame(data)"
+  },
+  {
+    "output": "import matplotlib.pyplot as plt"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "sorted_items = sorted(my_dict.items())\n    table = PrettyTable()\n    table.field_names = ['Key', 'Value']\n    for key, value in sorted_items:\n        table.add_row([key, value])\n    return table"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "cleaned = re.sub(r'[^a-zA-Z0-9]', '', input_str)\nhash_object = hashlib.sha256(cleaned.encode())\nhash_hex = hash_object.hexdigest()\nhash_hex"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "import numpy as np"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "import pandas as pd"
+  },
+  {
+    "output": "import hashlib"
+  },
+  {
+    "output": "path = Path(path_to_append)\n    if not path.exists():\n        path.mkdir(parents=True, exist_ok=True)\n    sys.path.append(str(path))\n    return str(path)"
+  },
+  {
+    "output": "import os"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "from collections import Counter"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
+  },
+  {
+    "output": "```python"
   }
 ]
